@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #641010;
+  background-color: rgb(255, 252, 251);
 }
 
 .App-logo {
@@ -7,6 +10,13 @@
   pointer-events: none;
 }
 
+.submit{
+  background-color: rgb(122, 123, 235);
+  padding: 5px 30px ;
+}
+.ul li{
+  list-style: none;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
